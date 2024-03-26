@@ -1,0 +1,59 @@
+body{
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-color: #8f8d8d;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+}
+
+
+.contenedor{
+  text-align: center;
+  padding: 20px;
+
+}
+button{
+  text-align: center;
+  padding: 10px;
+  color: deeppink;
+
+}
+
+.resultado{
+  color: darkviolet;
+  font-weight: bold;
+}
+.resultadoEuro{
+  color:darkblue;
+  font-weight: bold;
+
+}
+.copyrigth{
+  color:black;
+  font-weight: bold;
+  padding: 10px;
+  
+  
+}
+@media screen and (min-width: 720px) and (max-width: 768px){
+  .contenedor{
+      width: 700px;
+      text-align: center;
+    }
+  }
+  button{
+    font-size: 0.7rem;
+  }
+
+  @media screen and (max-width: 390px){
+    .contenedor{
+      width: 360px;
+      text-align: center;
+    }
+  }
+  button{
+    font-size: 0.7rem;
+  }
